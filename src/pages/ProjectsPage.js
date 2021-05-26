@@ -4,79 +4,18 @@ import {Row, Col, Container} from 'react-bootstrap';
 import Footer from './footer.js';
 import {Link, useParams} from 'react-router-dom';
 import projects from '../projects.js';
+import PageTop from './pageTop';
 
 class ProjectsPage extends React.Component{
     
     render () {
         return <div>
-            <FirstSection></FirstSection>
+            <PageTop></PageTop>
             <Projects projectId = {this.props.match.params.id}></Projects>
             <Footer></Footer>
         </div>;
     }
 };
-
-class FirstSection extends React.Component {
-    render() {
-        return <div id = 'home'>
-
-            <Container fluid={true}>
-                <Row>
-                    <Col lg = '6' >
-                        
-                            <img src={logo} />
-                       
-                    </Col>
-                    <Col lg = '6'>
-                        <div id = 'menu'>
-                            <div id = 'menu-items'>
-                                <a class = 'menuItem' href = '/#home'>
-                                    Home
-                                </a>
-                                <a class = 'menuItem' href = '/#about-us'>
-                                    About Us
-                                </a>
-                                <a class = 'menuItem' href = '/#projects'>
-                                    Projects
-                                </a>
-                                <a class = 'menuItem' href = '/#our-team'>
-                                    Our Team
-                                </a>
-                                <a class = 'menuItem' href = '/#industrial-partners'>
-                                    Industrial Partners
-                                </a>
-                                <a class = 'menuItem' href = '/#contact'>
-                                    Contact
-                                </a>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <div id = 'title'>
-                        <div id = 'title1'>
-                            THE APPLIED
-                        </div>
-                        <div id = 'title2'>
-                            DATA SCIENCE
-                        </div>
-                        <div id = 'title3'>
-                            CENTER
-                        </div>
-                        <div id = 'subtitle'>
-                            The Applied Data Science Center is a leading 
-                            scientific center in data science in Bucharest.
-                            Its main focus is on applied research for
-                            high-impact problems from industry.
-                        </div>
-                    </div>
-                    
-                </Row>
-            </Container>
-            
-        </div>;
-    }
-}
 
 class Projects extends React.Component {
     componentDidMount() {

@@ -11,7 +11,7 @@ class Footer extends React.Component {
                 <Col>
                     <center>
                         <img src = {logo} id = 'footer-image'></img>
-                        <div id = 'footer-copyright'>Copyright Applied Data Science Center</div>
+                        <div id = 'footer-copyright'>Copyright Applied Data Science Center, Bucharest, Romania</div>
                     </center>
                 </Col>
             </Row>
