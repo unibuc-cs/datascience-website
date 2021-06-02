@@ -50,7 +50,7 @@ class SecondSection extends React.Component {
                 </Row>
                 <Row>
                     <Col lg = '4'>
-                        <b>Academic and industrial</b>
+                        <b>Academy and Industry</b>
                     </Col>
                     <Col lg = '8'>
                         As a differentiator, the center clearly positions itself at the border between the academic and industrial worlds, benefiting both.
@@ -66,32 +66,12 @@ class SecondSection extends React.Component {
                 </Row>
                 <Row>
                     <Col lg = '4'>
-                        <b>History</b>
+                        <b>History and Future</b>
                     </Col>
                     <Col lg = '8'>
-                        The center was legally established in 2017 as an excellence research center in the Department of Computer Science of University of Bucharest, but its members are researchers from any institution or company. The mid-term goal of the center is to merge into the future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
+                        The center was legally established in 2017 as an excellence research center in the Department of Computer Science of University of Bucharest, but its members are researchers from any institution or company. The mid-term goal of the center is to merge into a future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
                     </Col>
                 </Row>
-            </Container>
-        </div>;
-        return <div id = 'about-us'>
-            <Container>
-                <Row>
-                    <Col>
-                    <p>
-                    The Applied Data Science Center is a leading scientific center in data science in Bucharest.
-                    </p><p>
-                    Its main focus is on applied research for high-impact problems from industry.
-                    </p><p>
-                    As a differentiator, the center clearly positions itself at the border between the academic and industrial worlds, benefiting both.
-                    </p><p>
-                    The industry can collaborate with top researchers in data science and machine learning, while the scientists have a chance to work on the most relevant practical projects from industry.
-                    </p><p class = 'no-margin'>
-                    The center was legally established in 2017 as an excellence research center in the Department of Computer Science of University of Bucharest, but its members are researchers from any institution or company. The mid-term goal of the center is to merge into the future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
-                    </p>
-                    </Col>
-                </Row>
-
             </Container>
         </div>;
     }
@@ -259,7 +239,6 @@ class Contact extends React.Component {
         </Container>;
     }
 }
-
 
 
 
