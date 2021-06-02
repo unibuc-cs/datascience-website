@@ -69,7 +69,7 @@ class SecondSection extends React.Component {
                         <b>History and Future</b>
                     </Col>
                     <Col lg = '8'>
-                        The center was legally established in 2017 as an excellence research center in the Department of Computer Science of University of Bucharest, but its members are researchers from any institution or company. The mid-term goal of the center is to merge into a future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
+                        The center was legally established in 2017 as an excellence research center in the Department of Computer Science at the University of Bucharest, but its members are researchers from any institution or company. The mid-term goal of the center is to merge into a future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
                     </Col>
                 </Row>
             </Container>
@@ -205,7 +205,7 @@ class IndustrialPartners extends React.Component {
                             Deepmind,<br/> Model Tree
                         </div>
                         <div id = 'industrial-partners-touch'>
-                            If you would like to become and industrial partner.
+                            If you would like to become an industrial partner
                         </div>
                         <span id = 'industrial-partners-touch-button'>
                             Get in touch
