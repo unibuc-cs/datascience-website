@@ -58,7 +58,7 @@ class SecondSection extends React.Component {
                 </Row>
                 <Row>
                     <Col lg = '4'>
-                        <b>Machine Learning</b>
+                        <b>Collaboration</b>
                     </Col>
                     <Col lg = '8'>
                         The industry can collaborate with top researchers in data science and machine learning, while the scientists have a chance to work on the most relevant practical projects from industry.
@@ -66,10 +66,18 @@ class SecondSection extends React.Component {
                 </Row>
                 <Row>
                     <Col lg = '4'>
-                        <b>History and Future</b>
+                        <b>History</b>
                     </Col>
                     <Col lg = '8'>
-                        The center was legally established in 2017 as an excellence research center in the Department of Computer Science at the University of Bucharest, but its members are researchers from any institution or company. The mid-term goal of the center is to merge into a future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
+                        The center was legally established in 2017 as an excellence research center in the Department of Computer Science at the University of Bucharest, but its members can be researchers from any institution or company.
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg = '4'>
+                        <b>Future</b>
+                    </Col>
+                    <Col lg = '8'>
+                        The mid-term goal of the center is to merge into a future Romanian Hub for Artificial Intelligence, which will attract the best researchers from Romania and abroad, such that the data science community will cooperate easier across organizational boundaries.
                     </Col>
                 </Row>
             </Container>
@@ -147,8 +155,7 @@ class OurTeam extends React.Component {
         ))
         let studenti = [
             'Andra Baltoiu', 'Antonio Barbalau', 'Lucian Bicsi',
-            'Iuliana Georgescu',
-            'Radu Iacob', 'Andrei Ilie', 'Miruna Paduraru'
+            'Iuliana Georgescu', 'Radu Iacob', 'Andrei Ilie', 'Miruna Paduraru'
         ];
         studenti = studenti.map(prof => (
             <Col lg = '3' md = '4' xs = '6' className = 'prof-name'>
@@ -162,7 +169,7 @@ class OurTeam extends React.Component {
                     <Col>
                         <center>
                             <div class = 'huge-center-title'>OUR TEAM</div>
-                            <div class = 'huge-center-subtitle'>OUR MEMBERS</div>
+                            <div class = 'huge-center-subtitle'>MEMBERS</div>
                         </center>
                     </Col>
                 </Row>
@@ -173,7 +180,7 @@ class OurTeam extends React.Component {
                     <Col>
                         <center>
                             <div style = {{'marginTop': '50px'}}></div>
-                            <div class = 'huge-center-subtitle'>OUR PHD STUDENTS</div>
+                            <div class = 'huge-center-subtitle'>PHD STUDENTS</div>
                         </center>
                     </Col>
                 </Row>
