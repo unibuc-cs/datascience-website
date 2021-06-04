@@ -136,22 +136,19 @@ class OurTeam extends React.Component {
         let profesori = [
             'Bogdan Alexe', 'Marina Cidota', 'Mihai Cucuringu', 'Anca Dobrovat', 'Bogdan Dumitru',
             'Florentina Hristea', 'Bogdan Ichim', 'Radu Ionescu', 'Florentin Ipate',
-            'Paul Irofti', 'Marius Leordeanu', 'Ciprian Paduraru', 'Andrei Patrascu',
+            'Paul Irofti', 'Marius Leordeanu', 'Sergiu Nisioi', 'Ciprian Paduraru', 'Andrei Patrascu',
             'Marius Popescu', 'Traian Rebedea', 'Florentina Suter', 'Alin Stefanescu',
-            'Gheorghe Stefanescu', 'Alexandru Tache', 'Horia Velicu'
+            'Gheorghe Stefanescu', 'Alexandru Tache', 'Ana Uban', 'Horia Velicu'
         ];
         profesori = profesori.map(prof => (
             <Col lg = '3' md = '4' xs = '6' className = 'prof-name'>
-                
                 <center> {prof} </center>
             </Col>
         ))
         let studenti = [
             'Andra Baltoiu', 'Antonio Barbalau', 'Lucian Bicsi',
             'Iuliana Georgescu',
-            'Radu Iacob', 'Andrei Ilie','Sergiu Nisioi',  'Miruna Paduraru', 'Ana Uban',
-            
-
+            'Radu Iacob', 'Andrei Ilie', 'Miruna Paduraru'
         ];
         studenti = studenti.map(prof => (
             <Col lg = '3' md = '4' xs = '6' className = 'prof-name'>
@@ -199,10 +196,8 @@ class IndustrialPartners extends React.Component {
                             INDUSTRIAL PARTNERS
                         </div>
                         <div id = 'industrial-partners-list'>
-                            Arnia, BRD, Bitdefender, boost.rs, <br/>
-                            Orange, Sparktech, 
-                            SecurifAI, Softbinator,
-                            Deepmind,<br/> Model Tree
+                            Arnia, Bolt, BRD, Bitdefender, boost.rs, <br/>
+                             Deepmind, Orange, SecurifAI, Softbinator, Sparktech
                         </div>
                         <div id = 'industrial-partners-touch'>
                             If you would like to become an industrial partner
