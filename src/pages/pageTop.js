@@ -2,7 +2,8 @@ import React from 'react';
 import logo from '../logo_white.png';
 import logo_black from '../logo_dark.png';
 import {Row, Col, Container} from 'react-bootstrap';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Footer from './footer.js'
 import projects from '../projects.js';
 
@@ -49,24 +50,35 @@ class FloatingMenu extends React.Component {
                 <Col lg = '10'>
                     <div id = 'menu'>
                         <div id = 'menu-items'>
-                            <a class = 'menuItem' href = '/#home'>
+                            {/* <a class = 'menuItem' href = '/#home'> */}
+                            <Link to = "/#home" className = "menuItem">
                                 Home
-                            </a>
-                            <a class = 'menuItem' href = '/#about-us'>
+                            </Link>
+                            {/* </a> */}
+                            {/* <a class = 'menuItem' href = '/#about-us'> */}
+                            <Link to = "/#about-us" className = "menuItem">
                                 About Us
-                            </a>
-                            <a class = 'menuItem' href = '/#projects'>
+                            </Link>
+                            {/* </a> */}
+                            {/* <a class = 'menuItem' href = '/#projects'> */}
+                            <Link to = "/#projects" className = "menuItem">
                                 Projects
-                            </a>
-                            <a class = 'menuItem' href = '/#our-team'>
+                                </Link>
+                            {/* </a> */}
+                            {/* <a class = 'menuItem' href = '/#our-team'> */}
+                            <Link to = "/#our-team" className = "menuItem">
                                 Our Team
-                            </a>
-                            <a class = 'menuItem' href = '/#industrial-partners'>
+                            </Link>
+                            {/* <a class = 'menuItem' href = '/#industrial-partners'> */}
+                            <Link to = "/#industrial-partners" className = "menuItem">
                                 Industrial Partners
-                            </a>
-                            <a class = 'menuItem' href = '/#contact'>
+                            </Link>
+                            {/* </a> */}
+                            {/* <a class = 'menuItem' href = '/#contact'> */}
+                            <Link to = "/#contact" className = "menuItem">
                                 Contact
-                            </a>
+                            </Link>
+                            {/* </a> */}
                         </div>
                     </div>
                 </Col>
@@ -130,24 +142,33 @@ class FirstSection extends React.Component {
                     <Col lg = '10'>
                         <div id = 'menu'>
                             <div id = 'menu-items'>
-                                <a class = 'menuItem' href = '#home'>
+                                <Link to = "/#home" className = "menuItem">
                                     Home
-                                </a>
-                                <a class = 'menuItem' href = '#about-us'>
+                                </Link>
+                                {/* </a> */}
+                                {/* <a class = 'menuItem' href = '/#about-us'> */}
+                                <Link to = "/#about-us" className = "menuItem">
                                     About Us
-                                </a>
-                                <a class = 'menuItem' href = '#projects'>
+                                </Link>
+                                {/* </a> */}
+                                {/* <a class = 'menuItem' href = '/#projects'> */}
+                                <Link to = "/#projects" className = "menuItem">
                                     Projects
-                                </a>
-                                <a class = 'menuItem' href = '#our-team'>
+                                    </Link>
+                                {/* </a> */}
+                                {/* <a class = 'menuItem' href = '/#our-team'> */}
+                                <Link to = "/#our-team" className = "menuItem">
                                     Our Team
-                                </a>
-                                <a class = 'menuItem' href = '#industrial-partners'>
+                                </Link>
+                                {/* <a class = 'menuItem' href = '/#industrial-partners'> */}
+                                <Link to = "/#industrial-partners" className = "menuItem">
                                     Industrial Partners
-                                </a>
-                                <a class = 'menuItem' href = '#contact'>
+                                </Link>
+                                {/* </a> */}
+                                {/* <a class = 'menuItem' href = '/#contact'> */}
+                                <Link to = "/#contact" className = "menuItem">
                                     Contact
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </Col>

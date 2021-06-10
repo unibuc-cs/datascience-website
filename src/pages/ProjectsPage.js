@@ -47,7 +47,8 @@ class Projects extends React.Component {
                             { project['sponsor'] }
                         </div>
                         <div class = 'left-project-section'>
-                            <b>{ project['budget'] }</b>
+                            <b>BUDGET</b><br></br>
+                            { project['budget'] }
                         </div>
                         <div class = 'left-project-section'>
                             <b>PARTNERS</b><br></br>

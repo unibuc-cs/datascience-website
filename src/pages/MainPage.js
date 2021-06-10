@@ -108,7 +108,9 @@ class ThirdSection extends React.Component {
                             If you would like to collaborate with us on a project
                         </div>
                         <span id = 'industrial-partners-touch-button-for-projects'>
-                            Get in touch
+                            <a href='mailto:datascience@cs.unibuc.ro'>
+                                Get in touch
+                            </a>
                         </span>
                         </center>
                     </Col>
@@ -210,7 +212,9 @@ class IndustrialPartners extends React.Component {
                             If you would like to become an industrial partner
                         </div>
                         <span id = 'industrial-partners-touch-button'>
-                            Get in touch
+                            <a href='mailto:datascience@cs.unibuc.ro'>
+                                Get in touch
+                            </a>
                         </span>
                     </center>
                 </Col>
@@ -234,7 +238,9 @@ class Contact extends React.Component {
             <Row>
                 <Col>
                     <div id = 'contact-email'>
-                        datascience@cs.unibuc.ro
+                        <a href='mailto:datascience@cs.unibuc.ro'>
+                            datascience@cs.unibuc.ro
+                        </a>
                     </div>
                 </Col>
             </Row>
