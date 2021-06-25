@@ -5,7 +5,7 @@ let projects = [{
     'budget': '39,000 euros',
     'partners': 'UB, BRD',
     'timeline': 'July - December 2021',
-    'short_description': 'Investigate explainable AI, financial trading optimization anomaly detection for banking system',
+    'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking system',
     'paragraphs': [
        'Explainable AI for court decision models: We will explore the decision process of artificial intelligence models developed to predict court decisions for lawsuits and for the financial domain. The goal is to understand how the model works and to provide explanations for individual model decisions. Ideally, the research should find general features that the model pays the most attention to, synthesizing exemplar inputs and showcasing deciding factors for a particular prediction.',
        'Financial trading optimization: The recent financial trading techniques rely on artificial intelligence models that explore how to maximize the profit through setting optimal prices. One purpose of this research is the identification of the best learning model that could maintain a balance between thresholds that are attractive for the user and those that generate maximal profit. Secondly, detecting what features of the user entities that are most important for the model would provide explanations for the optimal decisions. By showcasing deciding factors for a particular prediction will be also important.',
@@ -18,7 +18,7 @@ let projects = [{
     'budget': '70,000 euros',
     'partners': 'UB, BRD',
     'timeline': 'July - October 2019',
-    'short_description': 'This is some text made out of 3 sentences. This is the second one and has some meaning',
+    'short_description': 'Predicting court decisions for lawsuits and anomaly detection in financial transactions',
     'paragraphs': [
         'Predicting court decisions for lawsuits: Using data obtained from previous civil lawsuits and court decisions, machine learning algorithms and natural language processing techniques were investigated in order to decide what are the chances of winning an ongoing lawsuit. Legal suggestions that may increase the chances of winning were also offered in a preliminary form.',
         'Anomaly detection in financial transactions: Using data from the financial flow between various bank accounts, algorithms for detection of anomalies and implicitly of suspicious transactions were investigated. Reporting such anomalies helps to increase the efficiency of internal processes and to reduce financial operational risk.',
@@ -43,11 +43,11 @@ let projects = [{
     'budget': '47,000 euros',
     'partners': 'University of Bucharest, Municipality of Bucharest, Bolt',
     'timeline': 'November 2020 - May 2022',
-    'short_description': 'Traffic optimization using state-of-the-art machine learining algorithms (classic machine learning, reinforcement learning, dictionary learning',
+    'short_description': 'Traffic optimization using state-of-the-art machine learining algorithms including reinforcement and dictionary learning',
     'paragraphs': [
         'Traffic optimization using state-of-the-art machine learining algorithms, from classic machine learning to reinforcement learning and dictionary learning',
         'We use data science methods, involving with data collection, preparations and transformation of data, application of the above learning algorithms, optimization models and finally testing and simulation on use case as close to reality as possible',
-        'The data we plan to use comes from the Municipality of Bucharest (a variaty of data from intersections, road sensors etc), but also from drivers of the smart mobility company Bolt.',
+        'The real data that we plan to use comes from the Municipality of Bucharest (a variaty of data from intersections, road sensors etc), but also from drivers of the smart mobility company Bolt.',
     ]
 }, {
     'id': 'norwegian1',
