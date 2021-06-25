@@ -5,7 +5,7 @@ let projects = [{
     'budget': '39,000 euros',
     'partners': 'UB, BRD',
     'timeline': 'July - December 2021',
-    'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking system',
+    'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking domain',
     'paragraphs': [
        'Explainable AI for court decision models: We will explore the decision process of artificial intelligence models developed to predict court decisions for lawsuits and for the financial domain. The goal is to understand how the model works and to provide explanations for individual model decisions. Ideally, the research should find general features that the model pays the most attention to, synthesizing exemplar inputs and showcasing deciding factors for a particular prediction.',
        'Financial trading optimization: The recent financial trading techniques rely on artificial intelligence models that explore how to maximize the profit through setting optimal prices. One purpose of this research is the identification of the best learning model that could maintain a balance between thresholds that are attractive for the user and those that generate maximal profit. Secondly, detecting what features of the user entities that are most important for the model would provide explanations for the optimal decisions. By showcasing deciding factors for a particular prediction will be also important.',
@@ -25,7 +25,7 @@ let projects = [{
     ]
 }, {
     'id': 'humanoidid',
-    'title': 'Humanoid ID',
+    'title': 'HumanoID',
     'sponsor': 'Romanian Ministry of Research, Innovation, and Digitalization (grant no 32PTE/2020)',
     'budget': '275,000 euros',
     'partners': 'University of Bucharest, Tremend',
@@ -39,7 +39,7 @@ let projects = [{
 }, {
     'id': 'massa',
     'title': 'MASSA',
-    'sponsor': 'Romanian Ministry of Research, Innovation, and Digitalization',
+    'sponsor': 'Romanian Ministry of Research, Innovation, and Digitalization (grant no 56PTE/2020)',
     'budget': '47,000 euros',
     'partners': 'University of Bucharest, Municipality of Bucharest, Bolt',
     'timeline': 'November 2020 - May 2022',
