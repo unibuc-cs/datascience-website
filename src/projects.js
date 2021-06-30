@@ -4,12 +4,14 @@ let projects = [{
     'sponsor': 'BRD – Groupe Societe Generale',
     'budget': '39,000 euros',
     'partners': 'UB, BRD',
-    'timeline': 'July - December 2021',
+    'timeline': 'July 2021 - June 2022',
     'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking domain',
     'paragraphs': [
        'Explainable AI for court decision models: We will explore the decision process of artificial intelligence models developed to predict court decisions for lawsuits and for the financial domain. The goal is to understand how the model works and to provide explanations for individual model decisions. Ideally, the research should find general features that the model pays the most attention to, synthesizing exemplar inputs and showcasing deciding factors for a particular prediction.',
        'Financial trading optimization: The recent financial trading techniques rely on artificial intelligence models that explore how to maximize the profit through setting optimal prices. One purpose of this research is the identification of the best learning model that could maintain a balance between thresholds that are attractive for the user and those that generate maximal profit. Secondly, detecting what features of the user entities that are most important for the model would provide explanations for the optimal decisions. By showcasing deciding factors for a particular prediction will be also important.',
        'Anomaly detection in computer networks traffic: We plan to explore the continuous monitoring and analysis of network traffic (data packet information, meta-data, and signatures) for unusual isolated events or long-term trends that are developing. The goal is the early identification of potential security threats and their immediate mitigation using state-of-the-art anomaly detection algorithms developed in the machine learning community. Ideally, real-time identification of anomalies in the computer network traffic will lead to early detection of security threats.',
+       'As part of this project, several BRD research fellowships were awarded. Following an open call, the following researchers were selected as recipients: Antonio Barbalau, Matei Bejan, Lucian Bicsi, Paul Irofti, Ciprian Paduraru, Cristian Rusu, Laurentiu Vasile',
+ 
     ]
 }, {
     'id': 'brd2019',
@@ -38,7 +40,7 @@ let projects = [{
     ]
 }, {
     'id': 'massa',
-    'title': 'MASSA',
+    'title': 'AI-driven traffic optimization',
     'sponsor': 'Romanian Ministry of Research, Innovation, and Digitalization (grant no 56PTE/2020)',
     'budget': '47,000 euros',
     'partners': 'University of Bucharest, Municipality of Bucharest, Bolt',
