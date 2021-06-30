@@ -148,7 +148,7 @@ class OurTeam extends React.Component {
             'Florentina Hristea', 'Bogdan Ichim', 'Radu Ionescu', 'Florentin Ipate',
             'Paul Irofti', 'Marius Leordeanu', 'Sergiu Nisioi', 'Ciprian Paduraru', 'Andrei Patrascu',
             'Marius Popescu', 'Traian Rebedea', 'Cristian Rusu', 'Florentina Suter', 'Alin Stefanescu',
-            'Gheorghe Stefanescu', 'Alexandru Tache', 'Ana Uban', 'Horia Velicu', 'Laurentiu Vasile'
+            'Gheorghe Stefanescu', 'Alexandru Tache', 'Ana Uban', 'Laurentiu Vasile', 'Horia Velicu'
         ];
         profesori = profesori.map(prof => (
             <Col lg = '3' md = '4' xs = '6' className = 'prof-name'>
