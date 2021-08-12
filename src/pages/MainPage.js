@@ -206,7 +206,7 @@ class IndustrialPartners extends React.Component {
                         </div>
                         <div id = 'industrial-partners-list'>
                             Arnia, Bolt, BRD, Bitdefender, boost.rs, DeepMind,<br/>
-                              Orange, SecurifAI, Softbinator, Sparktech (to be updated)
+                              Orange, SecurifAI, Softbinator, Sparktech, UiPath (to be updated)
                         </div>
                         <div id = 'industrial-partners-touch'>
                             If you would like to become an industrial partner
