@@ -1,9 +1,9 @@
 let projects = [{
     'id': 'brd2021',
-    'title': 'BRD 2021',
+    'title': 'AI for Banking 2021',
     'sponsor': 'BRD – Groupe Societe Generale',
     'budget': '39,000 euros',
-    'partners': 'UB, BRD',
+    'partners': 'University of Bucharest, BRD',
     'timeline': 'July 2021 - June 2022',
     'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking domain',
     'paragraphs': [
@@ -15,10 +15,10 @@ let projects = [{
     ]
 }, {
     'id': 'brd2019',
-    'title': 'BRD 2019',
+    'title': 'AI for Banking 2019',
     'sponsor': 'BRD – Groupe Societe Generale',
     'budget': '70,000 euros',
-    'partners': 'UB, BRD',
+    'partners': 'University of Bucharest, BRD',
     'timeline': 'July - October 2019',
     'short_description': 'Predicting court decisions for lawsuits and anomaly detection in financial transactions',
     'paragraphs': [
