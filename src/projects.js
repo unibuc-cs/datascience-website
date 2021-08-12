@@ -66,12 +66,12 @@ let projects = [{
     ]
 }, {
     'id': 'norwegian2',
-    'title': 'Learning and optimization for hyperspectral imaging systems',
+    'title': 'Learning and optimization for hyperspectral images',
     'sponsor': 'Norwegian Ministry of Research',
     'budget': '1.163,000 euros',
     'partners': 'Polytechnic University of Bucharest, University of Bucharest, Norwegian University of Science and Technology, Coltea Clinic Hospital',
     'timeline': 'September 2019 - August 2023',
-    'short_description': 'Improving hyperspectral imaging using latest AI methods',
+    'short_description': 'Improving hyperspectral imaging systems using latest AI and optimisation methods',
     'paragraphs': [
         'We aim to create, analyze and implement efficient learning and optimization algorithms for hyperspectral imaging models with applications to ocean monitoring and medical imaging',
         'We will define appropriate models (loss functions), which include additional data representations, relational information about data or ways of removing the influence of noise from predictor performance, boosting performance even when dealing with small datasets.', 
