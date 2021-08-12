@@ -53,29 +53,29 @@ let projects = [{
     ]
 }, {
     'id': 'norwegian1',
-    'title': 'Norwegian 1 TODO',
-    'sponsor': 'Norwegian Ministry of Research, TODO',
-    'budget': '347,000 euros',
-    'partners': 'University of Bucharest, Polytechnic University of Bucharest, TODO',
-    'timeline': 'November 2020 - May 2022',
-    'short_description': 'TODO',
+    'title': 'Spacetime Vision',
+    'sponsor': 'Norwegian Ministry of Research',
+    'budget': '1,490,000 euros',
+    'partners': 'Polytechnic University of Bucharest, University of Bucharest, Norwegian Research Center AS',
+    'timeline': 'July 2019 - March 2023',
+    'short_description': 'Unsupervised learning from large spatiotemporal volumes of data',
     'paragraphs': [
-        'TODO', 
-        'TODO',
-        'TODO',
+        'We will create fast methods for online and unsupervised learning in large spatiotemporal volumes of data, able to function in the dynamic world. We will use different kinds of imaging and 4D (3D + time) sensing capabilities, ranging from fixed sensors to cameras present on UAVs. ', 
+        'Also, we will make powerful methods for complete scene understanding, from the level of objects and activities involving objects to translating the visual scene into natural language. ',
+        ' We will give drones the capacity to “see” and understand the world in which they fly and we will develop smart cameras with new sensing and learning capabilities. They will make our research suitable for real world applications',
     ]
 }, {
     'id': 'norwegian2',
-    'title': 'Norwegian 2 TODO',
-    'sponsor': 'Norwegian Ministry of Research, TODO',
-    'budget': '347,000 euros',
-    'partners': 'University of Bucharest, Polytechnic University of Bucharest, TODO',
-    'timeline': 'November 2020 - May 2022',
-    'short_description': 'TODO',
+    'title': 'Learning and optimization for hyperspectral imaging systems',
+    'sponsor': 'Norwegian Ministry of Research',
+    'budget': '1.163,000 euros',
+    'partners': 'Polytechnic University of Bucharest, University of Bucharest, Norwegian University of Science and Technology, Coltea Clinic Hospital',
+    'timeline': 'September 2019 - August 2023',
+    'short_description': 'Improving hyperspectral imaging using latest AI methods',
     'paragraphs': [
-        'TODO', 
-        'TODO',
-        'TODO',
+        'We aim to create, analyze and implement efficient learning and optimization algorithms for hyperspectral imaging models with applications to ocean monitoring and medical imaging',
+        'We will define appropriate models (loss functions), which include additional data representations, relational information about data or ways of removing the influence of noise from predictor performance, boosting performance even when dealing with small datasets.', 
+        'We will develop fast optimization algorithms (e.g. higher order, projection or stochastic splitting methods) having low complexity per iteration and scalability',
     ]
 }, {
     'id': 'pharma',
@@ -83,7 +83,7 @@ let projects = [{
     'sponsor': 'Cegedim Romania',
     'budget': '9,000 euros',
     'partners': 'Univeristy of Bucharest, RODA',
-    'timeline': 'July - October 2019',
+    'timeline': 'July 2019 - October 2019',
     'short_description': 'Phamaceutical market forcasting along several financial dimensions',
     'paragraphs': [
         'The project consisted of short (2019 - 2020) and medium (2019 - 2023) time forecasts for the evolution of the Romanian pharmaceutical market. Concretely, it consisted of monthly forecasting of three key market indicators (total number of days of treatment, total number of units sold and total sales value) both at the level of the entire market and across different market segments of interest.',
@@ -92,7 +92,7 @@ let projects = [{
     ]
 }, {
     'id': 'river',
-    'title': 'Smart Fuzz Testing',
+    'title': 'Smart fuzz testing',
     'sponsor': 'Romanian Ministry of Research, Innovation, and Digitalization (several grants)',
     'budget': '720,000 euros',
     'partners': 'University of Bucharest, Bitdefender, Polytechnic University of Bucharest',
@@ -103,7 +103,31 @@ let projects = [{
         'RIVER can test vulnerabilities of binary files using AI, especially reinforcement learning, combined with taint analysis, symbolic and concolic execution.',
         'Our platform is currently extended to be able to evaluate smart home interconnected applications based on beyond-state-of-the-art methods for software security assessment.',
     ]
+}, {
+    'id': 'uipath2021',
+    'title': 'RPA testing',
+    'sponsor': 'UiPath',
+    'budget': '20,000 euros',
+    'partners': 'University of Bucharest',
+    'timeline': 'July 2021 - November 2021',
+    'short_description': 'Improving test automation for RPA software robots using AI and formal methods',
+    'paragraphs': [
+        'We will apply state-of-the-art and novel techniques from AI and formal methods to increase the automation in the area of RPA testing.',
+        'Given an RPA software robot, we will automatically generate test data that will provide a high test coverage.',
+    ]
+}, {
+    'id': 'nlp4cybersecurity',
+    'title': 'Text analysis for cybersecurity',
+    'sponsor': 'Romanian Ministry of Research, Innovation, and Digitalization',
+    'budget': '235,000 euros',
+    'partners': 'Bitdefender, University of Bucharest',
+    'timeline': 'June 2020 - November 2021',
+    'short_description': 'NLP applied to author identification in DarkWeb',
+    'paragraphs': [
+        'We will develop a cyber security platform that analyzes users of DarkWeb services, in order to identify and profile malicious actors.',
+        'We will use machine learning and natural language processing to construct a corpora with texts from DarkWeb and the Web, written by the same author and different authors',
+        'We will profile the authors, based on the kernel, by distilling them into deep Siamese networks, with the goal of identifying organized criminal groups and malicious actors',
+    ]
 }, ];
 
 export default projects;
-
