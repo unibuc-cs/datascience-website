@@ -66,7 +66,7 @@ let projects = [{
     ]
 }, {
     'id': 'norwegian2',
-    'title': 'Learning and optimization for hyperspectral images',
+    'title': 'Hyperspectral image optimisation',
     'sponsor': 'Norwegian Ministry of Research',
     'budget': '1.163,000 euros',
     'partners': 'Polytechnic University of Bucharest, University of Bucharest, Norwegian University of Science and Technology, Coltea Clinic Hospital',
