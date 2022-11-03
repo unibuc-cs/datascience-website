@@ -4,7 +4,7 @@ let projects = [{
     'sponsor': 'BRD – Groupe Societe Generale',
     'budget': '35,000 euros',
     'partners': 'University of Bucharest, BRD',
-    'timeline': 'July 2021 - June 2022',
+    'timeline': 'Jan 2023 - Dec 2023',
     'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking domain',
     'paragraphs': [
        'Explainable AI for court decision models: We will explore the decision process of artificial intelligence models developed to predict court decisions for lawsuits and for the financial domain. The goal is to understand how the model works and to provide explanations for individual model decisions. Ideally, the research should find general features that the model pays the most attention to, synthesizing exemplar inputs and showcasing deciding factors for a particular prediction.',
