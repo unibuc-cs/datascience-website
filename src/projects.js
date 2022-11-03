@@ -1,17 +1,16 @@
 let projects = [{
-    'id': 'brd2021',
-    'title': 'AI for Banking 2021',
+    'id': 'brd2022',
+    'title': 'AI for Banking 2022',
     'sponsor': 'BRD – Groupe Societe Generale',
-    'budget': '39,000 euros',
+    'budget': '35,000 euros',
     'partners': 'University of Bucharest, BRD',
     'timeline': 'July 2021 - June 2022',
     'short_description': 'Explainable AI, financial trading optimization, and anomaly detection for banking domain',
     'paragraphs': [
        'Explainable AI for court decision models: We will explore the decision process of artificial intelligence models developed to predict court decisions for lawsuits and for the financial domain. The goal is to understand how the model works and to provide explanations for individual model decisions. Ideally, the research should find general features that the model pays the most attention to, synthesizing exemplar inputs and showcasing deciding factors for a particular prediction.',
-       'Financial trading optimization: The recent financial trading techniques rely on artificial intelligence models that explore how to maximize the profit through setting optimal prices. One purpose of this research is the identification of the best learning model that could maintain a balance between thresholds that are attractive for the user and those that generate maximal profit. Secondly, detecting what features of the user entities that are most important for the model would provide explanations for the optimal decisions. By showcasing deciding factors for a particular prediction will be also important.',
        'Anomaly detection in computer networks traffic: We plan to explore the continuous monitoring and analysis of network traffic (data packet information, meta-data, and signatures) for unusual isolated events or long-term trends that are developing. The goal is the early identification of potential security threats and their immediate mitigation using state-of-the-art anomaly detection algorithms developed in the machine learning community. Ideally, real-time identification of anomalies in the computer network traffic will lead to early detection of security threats.',
-        //<span>As part of this project, a <a href='https://datascience.cs.unibuc.ro/call-brd-data-science-research-fellowships-2021.pdf'>call for research scholarships</a> was opened in June 2021. Several BRD research fellowships were awarded to the following young researchers: Antonio Barbalau, Matei Bejan, Lucian Bicsi, Paul Irofti, Ciprian Paduraru, Cristian Rusu, Laurentiu Vasile'</span>
- 
+        <span>As part of this project, a <a href='https://datascience.cs.unibuc.ro/anunt-burse-de-cercetare-BRD-data-science-2022.pdf'>call for research scholarships</a> was opened in November 2022. The scholarships will be granted following the formal procedure described <a href='https://datascience.cs.unibuc.ro/procedura-acordare-burse-centrul-de-stiinta-datelor-2022.pdf'>here</a>.</span> 
+        //Several BRD research fellowships were awarded to the following young researchers: 
     ]
 }, {
     'id': 'brd2019',
